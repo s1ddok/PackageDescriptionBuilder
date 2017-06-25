@@ -232,7 +232,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = PR6HV9J6AD;
+				LIBRARY_SEARCH_PATHS = "$(DT_TOOLCHAIN_DIR)/usr/lib/swift/pm/4";
+				OTHER_LDFLAGS = "-lPackageDescription";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(DT_TOOLCHAIN_DIR)/usr/lib/swift/pm/4";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -241,7 +244,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = PR6HV9J6AD;
+				LIBRARY_SEARCH_PATHS = "$(DT_TOOLCHAIN_DIR)/usr/lib/swift/pm/4";
+				OTHER_LDFLAGS = "-lPackageDescription";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(DT_TOOLCHAIN_DIR)/usr/lib/swift/pm/4";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
